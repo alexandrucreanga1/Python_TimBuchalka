@@ -20,4 +20,4 @@ print(type(age))
 age_in_words = "2 years"
 print(age)
 print(type(age))
-print(name + " is " + str(age) + " years old.")  # strongly typed !
+print(name + " is " + str(age) + " years old.")  # strongly typed ! jkghdsklkjghgfhg
