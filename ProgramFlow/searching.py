@@ -1,6 +1,7 @@
 shopping_list = ["milk","pasta","eggs","spam","bread","rice"]
 
-item_to_find = "spam"
+#item_to_find = "spam"
+item_to_find = "albatross"
 found_at = None
 
 # for index in range (6)
@@ -9,4 +10,7 @@ for index in range(len(shopping_list)) :
         found_at = index
         break
 
-print("Item found at position {}". format(found_at))
+if found_at is not None :
+    print("Item found at position {}". format(found_at))
+else:
+    print("{} not found.".format(item_to_find))
