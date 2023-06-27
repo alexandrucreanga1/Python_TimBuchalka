@@ -12,3 +12,12 @@ print(len(odd))
 
 print()
 print(odd.count(3))
+
+even.extend(odd)
+print(even)
+another_even = even
+print(another_even)
+
+even.sort(reverse=False)
+print(even)
+print(another_even)
